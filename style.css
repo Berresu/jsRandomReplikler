@@ -16,11 +16,25 @@ body{
     width: 60%;
     height: auto;
     min-height: 40%;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#resim{
+    width: 60%;
+    height: 40%;
+    z-index: -98;
+    opacity: 0.8;
+}
+
+#replik{
+    margin-top: -120px;
+}
+
+#btnDegistir{
+    margin-top: -60px;
 }
 
 h3{
